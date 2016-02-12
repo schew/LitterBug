@@ -1,0 +1,21 @@
+{
+  "name": "LitterBug",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Elana Stroud <estroud1@jhu.edu>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/schew/LitterBug",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}
