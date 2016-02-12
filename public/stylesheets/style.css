@@ -6,3 +6,9 @@ body {
 a {
   color: #00B7FF;
 }
+
+#test {
+    background: red;
+    width: 100px;
+    height: 100px;
+}
