@@ -1,0 +1,11 @@
+{
+  "name": "LitterBug",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Elana Stroud <estroud1@jhu.edu>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/schew/LitterBug",
+  "moduleType": []
+}
