@@ -4,37 +4,15 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
-    <link rel="stylesheet" type="text/css" href="bower_components/epoch/dist/css/epoch.css">
-    <link rel="stylesheet" href="bower_components/chartist/dist/chartist.min.css">
-
-      <script src="/bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
-      <script src="/bower_components/d3/d3.js" type="text/javascript"></script>
-      <script src="/bower_components/epoch/dist/js/epoch.js" type="text/javascript"
-      ></script>
-      <script src="bower_components/chartist/dist/chartist.min.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
 
   </head>
 
   <body>
-    <div id="navbar"></div>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
 
-    <div id="barChart" style="width: 300px; height: 500px"></div>
+  <button id="login" type="button">Click Me!</button>
 
-    <!-- Pie chart for resident's waste trends -->
-    <div class="line-graph"></div>
-
-    <!-- Pie chart for waste composition -->
-    <div class="waste-comp"></div>
-
-    <!-- Pie chart for waste reduction breakdown -->
-    <div class="waste-reduction"></div>
-
-
-    <script src="javascripts/bargraph.js" type="text/javascript"></script>
-    <script src="javascripts/linegraph.js" type="text/javascript"></script>
-    <script src="javascripts/piechart.js" type ="text/javascript"></script>
+  <script type="text/javascript" src="javascripts/login.js"></script>
   </body>
 
 </html>
