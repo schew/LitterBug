@@ -1,15 +1,9 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 25px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: #00B7FF;
 }
 
 a {
-  color: #00B7FF;
-}
-
-#test {
-    background: red;
-    width: 100px;
-    height: 100px;
+  /*color: #00B7FF;*/
 }
