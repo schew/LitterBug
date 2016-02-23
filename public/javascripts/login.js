@@ -11,3 +11,13 @@ $(document).ready(function(){
         console.log("tried changing loc")
     });
 });
+
+$("#login-button").click(function(event){
+    event.preventDefault();
+
+    $('form').fadeOut(500);
+    $('.wrapper').addClass('form-success');
+    setTimeout(function() {
+        window.location.href = '/home'
+    }, 1500)
+});
