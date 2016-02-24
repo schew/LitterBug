@@ -28,31 +28,42 @@ a {
   stroke-width: 40px;
 }
 
+.ct-text {
+	size: 50px; 
+}
+
+.charts {
+	position: absolute;
+	width: 90%;
+	height: 75%;
+	top: 25%;
+}
+
+/*top middle pie chart*/
 .waste-reduction {
 	position: absolute;
-	top: 120px;
-	right: 350px;
-	width: 600px;
+	left: 43%;
+
 }
 
 .line-graph {
 	position: absolute;
-	top: 525px;
-	left: 650px;
+	left: 45%;
+	top: 70%;
 }
 
+/*bottom left pie chart*/
 .waste-comp {
 	position: absolute;
-	left: 150px;
-
+	top: 65%;
 }
 
+/*top right pie chart*/
 .waste-destinations {
 	position: absolute;
-	right: 50px;
-	top: 120px;
+	left: 75%;
 }
 
 .neighborhood-comparison {
-	width: 300px;
+	position: absolute;
 }
