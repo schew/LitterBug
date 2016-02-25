@@ -48,8 +48,8 @@ var data = {
 };
 
 var options = {
-    width: '800px',
-    height: '300px',
+    width: '550px',
+    height: '350px',
     // horizontalBars: true,
     // axisY: {
     //     labelInterpolationFunc: function(value) {

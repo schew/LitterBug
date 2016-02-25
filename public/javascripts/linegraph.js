@@ -10,7 +10,7 @@ var data = {
 
 var options = {
     width: '800px',
-    height: '300px'
+    height: '350px'
 };
 
 // line chart plotting resident waste habits

@@ -1,26 +1,27 @@
 // waste composition
 var data = {
-	labels: ['Food', 'Plastic', 'Potential Recyclables', 'Metal'],
+	labels: ['Food', 'Plastic', 'Recyclables', 'Metal'],
 	series: ['10', '20', '5', '15']
 };
 
+// sizing
 var options = {
-	width: '600px',
-	height: '600px',
+	width: '300px',
+	height: '300px',
 };
 
 var responsiveOptions = [
   ['screen and (min-width: 640px)', {
-    chartPadding: 30,
-    labelOffset: 100,
+    chartPadding: 0,
+    labelOffset: 10,
     labelDirection: 'explode',
     labelInterpolationFnc: function(value) {
       return value;
     }
   }],
   ['screen and (min-width: 1024px)', {
-    labelOffset: 100,
-    chartPadding: 50
+    labelOffset: 10,
+    chartPadding: 0
   }]
 ];
 
@@ -30,27 +31,28 @@ new Chartist.Pie('.waste-comp', data, options, responsiveOptions);
 
 //breakdown of waste reduction
 var data = {
-	labels: ['Reusable Bags', 'Buy in bulk', 'Recycle', 'Compost'],
+	labels: ['Reusable Bags', 'Bulk Buy', 'Recycle', 'Compost'],
 	series: ['5', '1', '8', '3']
 };
 
+// sizing
 var options = {
-	width: '600px',
-	height: '600px',
+	width: '300px',
+	height: '300px',
 };
 
 var responsiveOptions = [
   ['screen and (min-width: 640px)', {
-    chartPadding: 30,
-    labelOffset: 100,
+    chartPadding: 0,
+    labelOffset: 10,
     labelDirection: 'explode',
     labelInterpolationFnc: function(value) {
       return value;
     }
   }],
   ['screen and (min-width: 1024px)', {
-    labelOffset: 100,
-    chartPadding: 50
+    chartPadding: 0,
+    labelOffset: 10
   }]
 ];
 
@@ -58,27 +60,28 @@ new Chartist.Pie('.waste-reduction', data, options, responsiveOptions);
 
 //breakdown of waste destinations
 var data = {
-  labels: ['Incinerator', 'Landfill', 'Recycling Facility'],
+  labels: ['Incinerator', 'Landfill', 'Recycling'],
   series: ['10', '8', '3']
 };
 
+// sizing
 var options = {
-  width: '600px',
-  height: '600px',
+  width: '300px',
+  height: '300px',
 };
 
 var responsiveOptions = [
   ['screen and (min-width: 640px)', {
-    chartPadding: 30,
-    labelOffset: 100,
+    chartPadding: 0,
+    labelOffset: 10,
     labelDirection: 'explode',
     labelInterpolationFnc: function(value) {
       return value;
     }
   }],
   ['screen and (min-width: 1024px)', {
-    labelOffset: 100,
-    chartPadding: 50
+    chartPadding: 0,
+    labelOffset: 10
   }]
 ];
 
