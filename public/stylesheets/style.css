@@ -32,38 +32,35 @@ a {
 	size: 50px; 
 }
 
+div {
+	display: inline-block;
+	/*position: relative;*/
+}
+
 .charts {
-	position: absolute;
-	width: 90%;
-	height: 75%;
-	top: 25%;
-}
-
-/*top middle pie chart*/
-.waste-reduction {
-	position: absolute;
-	left: 43%;
-
-}
-
-.line-graph {
-	position: absolute;
-	left: 45%;
-	top: 70%;
-}
-
-/*bottom left pie chart*/
-.waste-comp {
-	position: absolute;
-	top: 65%;
-}
-
-/*top right pie chart*/
-.waste-destinations {
-	position: absolute;
-	left: 75%;
+	display: inline-block;
 }
 
 .neighborhood-comparison {
-	position: absolute;
+}
+
+/*top middle pie chart*/
+.waste-comp {
+	margin-left: 5%;
+}
+
+/*top right pie chart*/
+.waste-reduction {
+	margin-left: 5%;
+}
+
+/*bottom left pie chart*/
+.waste-destinations {
+	margin-top: 3%;
+	margin-left: 7%;
+	margin-right: 5%;
+}
+
+.line-graph {
+	margin-left: 5%;
 }
