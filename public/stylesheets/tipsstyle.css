@@ -1,0 +1,7 @@
+@import "_chartist-settings.scss";
+@import "../../bower_components/chartist/dist/scss/chartist.scss";
+
+.tips {
+	display: none;
+	
+}

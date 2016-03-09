@@ -8,24 +8,28 @@ var data = {
 var options = {
 	width: '300px',
 	height: '300px',
+  chartPadding: 0,
+  labelOffset: 40,
+  labelDirection: 'neutral'
 };
 
-var responsiveOptions = [
-  ['screen and (min-width: 640px)', {
-    chartPadding: 0,
-    labelOffset: 10,
-    labelDirection: 'explode',
-    labelInterpolationFnc: function(value) {
-      return value;
-    }
-  }],
-  ['screen and (min-width: 1024px)', {
-    labelOffset: 10,
-    chartPadding: 0
-  }]
-];
+// var responsiveOptions = [
+//   ['screen and (min-width: 640px)', {
+//     chartPadding: 30,
+//     labelOffset: 10,
+//     labelDirection: 'explode',
+//     labelInterpolationFnc: function(value) {
+//       return value;
+//     }
+//   }],
+//   ['screen and (min-width: 1024px)', {
+//     labelOffset: 50,
+//     chartPadding: 30,
+//     labelDirection: 'explode'
+//   }]
+// ];
 
-new Chartist.Pie('.waste-comp', data, options, responsiveOptions);
+new Chartist.Pie('.waste-comp', data, options);
 
 
 
@@ -35,28 +39,10 @@ var data = {
 	series: ['5', '1', '8', '3']
 };
 
-// sizing
-var options = {
-	width: '300px',
-	height: '300px',
-};
+// adjust labels
+options.labelOffset = 25;
 
-var responsiveOptions = [
-  ['screen and (min-width: 640px)', {
-    chartPadding: 0,
-    labelOffset: 10,
-    labelDirection: 'explode',
-    labelInterpolationFnc: function(value) {
-      return value;
-    }
-  }],
-  ['screen and (min-width: 1024px)', {
-    chartPadding: 0,
-    labelOffset: 10
-  }]
-];
-
-new Chartist.Pie('.waste-reduction', data, options, responsiveOptions);
+new Chartist.Pie('.waste-reduction', data, options);
 
 //breakdown of waste destinations
 var data = {
@@ -64,25 +50,6 @@ var data = {
   series: ['10', '8', '3']
 };
 
-// sizing
-var options = {
-  width: '300px',
-  height: '300px',
-};
+// adjust labels
 
-var responsiveOptions = [
-  ['screen and (min-width: 640px)', {
-    chartPadding: 0,
-    labelOffset: 10,
-    labelDirection: 'explode',
-    labelInterpolationFnc: function(value) {
-      return value;
-    }
-  }],
-  ['screen and (min-width: 1024px)', {
-    chartPadding: 0,
-    labelOffset: 10
-  }]
-];
-
-new Chartist.Pie('.waste-destinations', data, options, responsiveOptions);
+new Chartist.Pie('.waste-destinations', data, options);

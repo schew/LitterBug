@@ -27,10 +27,10 @@ $ct-class-end: ct-end !default;
 $ct-container-ratio: (1/1.618) !default;
 
 // Text styles for labels
-$ct-text-color: rgba(0, 0, 0, 0.4) !default;
-$ct-text-size: 0.75rem !default;
-$ct-text-align: flex-start !default;
-$ct-text-justify: flex-start !default;
+$ct-text-color: rgba(255, 255, 255, 1) !default;
+$ct-text-size: 1.0rem !default;
+$ct-text-align: baseline !default;
+$ct-text-justify: baseline !default;
 $ct-text-line-height: 1;
 
 // Grid styles

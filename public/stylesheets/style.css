@@ -1,5 +1,5 @@
-/*@import "_my-chartist-settings.scss";*/
-/*@import "../../bower_components/chartist/dist/scss/chartist.scss";*/
+@import "_chartist-settings.scss";
+@import "../../bower_components/chartist/dist/scss/chartist.scss";
 
 body {
   padding: 50px;
