@@ -17,7 +17,7 @@ a {
 .ct-series-a .ct-line {
   /* Set the colour of this series line */
   stroke: red;
-  /* Control the thikness of your lines */
+  /* Control the thickness of your lines */
   stroke-width: 5px;
 }
 
@@ -34,35 +34,51 @@ a {
 
 div {
 	display: inline-block;
+  vertical-align: middle;
 	/*position: relative;*/
 }
 
-.charts {
+/*.charts {
 	margin-top: 6%;
 	margin-left: 13%;
 	display: inline-block;
 }
+*/
 
-.neighborhood-comparison {
+.charts-home {
+  margin-top: 7%;
+  margin-left: 12%;
+  display: inline-block;
 }
 
-/*top middle pie chart*/
-.waste-comp {
-	margin-left: 5%;
+.charts-city {
+  margin-top: 7%;
+  margin-left: 15%;
+  display: inline-block;
 }
 
-/*top right pie chart*/
-.waste-reduction {
-	margin-left: 5%;
+/*
+.trash-tips {
+  margin-left: 15%;
+  display: inline-block;
+}
+*/
+.home-waste-history {
+  padding: 20px;
 }
 
-/*bottom left pie chart*/
-.waste-destinations {
-	margin-top: 3%;
-	margin-left: 7%;
-	margin-right: 5%;
+.home-neighbor-comparison {
+  padding: 20px;
 }
 
-.line-graph {
-	margin-left: 5%;
+.city-waste-types {
+  padding: 20px;
+}
+
+.city-waste-reduction-options {
+  padding: 20px;
+}
+
+.city-waste-destinations {
+  padding: 20px;
 }

@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/home', function(req, res, next) {
-    res.render('home', { title: 'LitterBug' });
+    res.render('home', { title: 'Footprint' });
 //    res.send('rtesting')
 });
 

@@ -7,7 +7,7 @@ var data = {
 };
 
 var options = {
-    width: '550px',
+    width: '500px',
     height: '350px',
     // horizontalBars: true,
     // axisY: {
@@ -20,7 +20,7 @@ var options = {
 // In the global name space Chartist we call the Bar function to initialize a bar chart. 
 // As a first parameter we pass in a selector where we would like to get our chart created 
 // and as a second parameter we pass our data object.
-new Chartist.Bar('.neighborhood-comparison', data, options);
+new Chartist.Bar('.home-neighbor-comparison', data, options);
 
 
 

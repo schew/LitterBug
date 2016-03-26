@@ -29,7 +29,7 @@ var options = {
 //   }]
 // ];
 
-new Chartist.Pie('.waste-comp', data, options);
+new Chartist.Pie('.city-waste-types', data, options);
 
 
 
@@ -42,7 +42,7 @@ var data = {
 // adjust labels
 options.labelOffset = 25;
 
-new Chartist.Pie('.waste-reduction', data, options);
+new Chartist.Pie('.city-waste-reduction-options', data, options);
 
 //breakdown of waste destinations
 var data = {
@@ -52,4 +52,4 @@ var data = {
 
 // adjust labels
 
-new Chartist.Pie('.waste-destinations', data, options);
+new Chartist.Pie('.city-waste-destinations', data, options);

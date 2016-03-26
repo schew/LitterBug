@@ -10,9 +10,9 @@ var data = {
 };
 
 var options = {
-    width: '800px',
+    width: '500px',
     height: '350px'
 };
 
 // line chart plotting resident waste habits
-new Chartist.Line('.line-graph', data, options);
+new Chartist.Line('.home-waste-history', data, options);
