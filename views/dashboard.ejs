@@ -3,14 +3,15 @@
 <!-- <div class="dashboard"> -->
 	<div class="navbar">
 		<ul>
-			<li id="home-tab"><a href="javascript:void(0)" onclick="showHome();">Home</a></li>
-			<li id="city-tab"><a href="javascript:void(0)" onclick="showCity();">City</a></li>
-			<li id="country-tab"><a href="javascript:void(0)" onclick="showCountry();">Country</a></li>
-			<li id="settings-tab"><a href="javascript:void(0)" onclick="showSettings();">Settings</a></li>
+			<li onclick="showHome();" id="home-tab"><a href="javascript:void(0)">Home</a></li>
+			<li onclick="showCity();" id="city-tab"><a href="javascript:void(0)">City</a></li>
+			<li onclick="showCountry();" id="country-tab"><a href="javascript:void(0)">Country</a></li>
+			<li onclick="showSettings();" id="settings-tab"><a href="javascript:void(0)">Settings</a></li>
 			<!--<li><a href="javascript:void(0)" onclick="showTips();">Tips</a></li> -->
 		</ul>
 	</div>
 	<div class="header">
 		<h1 class="title"><%= title %></h1>
+        <a id="challengeButton">Challenge a Neighbor</a>
 	</div>
 <!-- </div> -->
