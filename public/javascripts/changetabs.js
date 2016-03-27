@@ -1,4 +1,5 @@
 var activeTab=[".charts-home", "#home-tab"];
+$(activeTab[1]).css("background", "rgb(205, 0, 0)");
 
 function showHome() {
 	swap([".charts-home", "#home-tab"], activeTab);
@@ -17,7 +18,7 @@ function showSettings() {
 };	
 
 /*function showTips() {
-	swap(".tips", activeTab);
+	swap([".tips", activeTab);
 };
 */
 
