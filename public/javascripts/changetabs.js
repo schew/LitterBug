@@ -1,28 +1,33 @@
-var activeTab=".charts-home";
+var activeTab=[".charts-home", "#home-tab"];
+$(activeTab[1]).css("background", "rgb(205, 0, 0)");
 
 function showHome() {
-	swap(".charts-home", activeTab);
+	swap([".charts-home", "#home-tab"], activeTab);
 };
 
 function showCity() {
-	swap(".charts-city", activeTab);
+	swap([".charts-city", "#city-tab"], activeTab);
 };
 
 function showCountry() {
-	swap(".charts-country", activeTab);
+	swap([".charts-country", "#country-tab"], activeTab);
 };
 
 function showSettings() {
-	swap(".settings", activeTab);
+	swap([".settings", "#settings-tab"], activeTab);
 };	
 
 /*function showTips() {
-	swap(".tips", activeTab);
+	swap([".tips", activeTab);
 };
 */
 
 function swap(activate, deactivate) {
-	$(deactivate).css("display", "none");
-	$(activate).css("display", "inline-block");
-	activeTab=activate;
+
+    $(deactivate[0]).css("display", "none");
+    $(activate[0]).css("display", "inline-block");
+    $(deactivate[1]).css("background", "none");
+    $(activate[1]).css("background", "rgb(205, 0, 0)");
+
+    activeTab=activate;
 }
