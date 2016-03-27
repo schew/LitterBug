@@ -34,45 +34,47 @@ a {
 
 div {
 	display: inline-block;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
 	/*position: relative;*/
 }
 
-/*.charts {
-	margin-top: 6%;
-	margin-left: 13%;
-	display: inline-block;
-}
-*/
-
+/* Tab One */
 .charts-home {
-  margin-top: 7%;
-  margin-left: 12%;
+  margin-top: 5%;
+  margin-left: 11%;
   display: inline-block;
+  position: relative;
 }
 
-.charts-city {
-  margin-top: 7%;
-  margin-left: 15%;
-  display: none;
-}
-
-.charts-country {
-  display: none;
-}
-
-/*
-.trash-tips {
-  margin-left: 15%;
-  display: inline-block;
-}
-*/
 .home-waste-history {
   padding: 20px;
 }
 
 .home-neighbor-comparison {
   padding: 20px;
+}
+
+.tipButton {
+  padding: 10px 10px;
+  font-size: 15px;
+  color: white;
+  background-color: #212626;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 7px;
+  right: 35px;
+}
+
+.tipButton:hover {
+    background-color: black;
+}
+
+/* Tab Two */
+.charts-city {
+  margin-top: 7%;
+  margin-left: 15%;
+  display: none;
 }
 
 .city-waste-types {
@@ -86,3 +88,9 @@ div {
 .city-waste-destinations {
   padding: 20px;
 }
+
+/* Tab Three*/
+.charts-country {
+  display: none;
+}
+
