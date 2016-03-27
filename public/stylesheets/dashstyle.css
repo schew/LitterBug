@@ -8,13 +8,13 @@ body {
 }
 .dashboard {
 	position: fixed;
-	width: 100%;
-	height: 100%;
+	/*width: 100%;*/
+	/*height: 100%;*/
 }
 
 .header {
 	width: 100%;
-	position: relative;
+	position: fixed;
 	display: block;
 	background-color: #F4C63D;
 	padding: 1%;
@@ -26,12 +26,13 @@ body {
 }
 
 .navbar {
-	position: relative;
+	position: fixed;
 	height: 100%;
 	width: 10%;
 	display: inline-block;
 	background-color: #212626;
-	top:0;
+	top: 0;
+	padding-top: 6%
 }
 
 ul {

@@ -54,7 +54,11 @@ div {
 .charts-city {
   margin-top: 7%;
   margin-left: 15%;
-  display: inline-block;
+  display: none;
+}
+
+.charts-country {
+  display: none;
 }
 
 /*

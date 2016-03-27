@@ -3,4 +3,12 @@
 	<div class="home-waste-history"></div>
 	<!-- Bar graph for neighborhood comparison -->
 	<div class="home-neighbor-comparison"></div>
+
+	<div class="calculator" ng-controller="MainController as main">
+		<input type="text" ng-model="trashWeight" placeholder="Enter your goal">
+		<p>Your trash usage this month is 56 lbs.</p>
+		<p>If you reduced it by {{ reduce(trashWeight) }}, you can save ${{ savings(reduce(trashWeight)) }}</p>
+
+		<button>Reset</button>
+	</div>
 </div>
