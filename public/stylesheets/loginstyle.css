@@ -57,11 +57,12 @@ body :-ms-input-placeholder {
 }
 .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: auto;
     margin-top: 100px;
     padding: 80px 0;
     height: 400px;
     text-align: center;
+    display: block;
 }
 .container h1 {
     font-size: 40px;
