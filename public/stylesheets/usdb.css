@@ -11,7 +11,7 @@ body {
 }
 
 #hover-div {
-    /*background-color: white;*/
+    background-color: rgb(242,189,32);
     display: inline-block;
     vertical-align: middle;
     margin-left: 100px;
