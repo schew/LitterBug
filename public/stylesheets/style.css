@@ -46,6 +46,20 @@ div {
   position: relative;
 }
 
+.charts-country {
+    margin-top: 5%;
+    margin-left: 11%;
+    display: inline-block;
+    position: relative;
+}
+
+.billing {
+    margin-top: 5%;
+    margin-left: 11%;
+    display: inline-block;
+    position: relative;
+}
+
 .home-waste-history {
   padding: 20px;
 }

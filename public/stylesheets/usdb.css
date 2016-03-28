@@ -1,0 +1,142 @@
+body {
+    background-color: #5F9EA0;
+    font-family: "Arial";
+}
+
+#map-row {
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#hover-div {
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+    margin-bottom: 700px;
+    border-radius: 6px;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.hover-text {
+    margin-bottom: 7px;
+}
+
+#hover-state {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#clicked-div {
+    width: 900px;
+    height:180px;
+    position: absolute;
+    top: 455px;
+    background-color: white;
+    border-radius: 3px;
+    opacity: 0.8;
+    margin-left: 20px;
+}
+
+#builder-text {
+    width: 900px;
+
+    position: absolute;
+    top: 660px;
+    margin-left: 24px;
+    font-size: 13px;
+}
+
+#query-answer {
+    background-color: orange;
+    opacity: 0.7;
+    position: absolute;
+    top: 820px;
+    margin-left: 20px;
+    width: 900px;
+    height: 150px;
+    border-radius: 6px;
+    margin-bottom: 100px;
+    padding: 15px;
+    overflow: auto;
+}
+
+#click-state {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#state-table {
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid black;
+    visibility: hidden;
+}
+
+#state-table tr, #state-table td {
+    border: 1px solid black;
+    font-size: 13px;
+}
+
+#query-builder {
+    position: absolute;
+    background-color: orange;
+    opacity: 0.8;
+    top: 680px;
+    width: 1000px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.select-text {
+    float: left;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 15px;
+}
+
+form {
+    float: left;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+.myButton {
+    background-color:orange;
+    border-radius:28px;
+    border:1px solid orange;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-shadow:0px 1px 0px darkorange;
+    position: absolute;
+    top: 740px;
+    left: 20px;
+    text-decoration: none;
+}
+.myButton:hover {
+    background-color:red;
+}
+
+
+#submitter {
+    margin-top: 30px;
+}
+
+#query-selector, #from-selector, #where-selector, #math-selector {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 13px;
+    float: left;
+}
+
+#map {
+    display: inline-block;
+}
