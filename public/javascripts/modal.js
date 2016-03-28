@@ -17,6 +17,7 @@ function showChallengeNeighbor() {
         type: "input",
         showCancelButton: true,
         closeOnConfirm: false,
+        allowOutsideClick: true,
         animation: "slide-from-top",
         inputPlaceholder: "Search by username or address" },
         function(inputValue){
@@ -36,10 +37,13 @@ function showChallengeNeighbor() {
 function showTips() {
     swal({
         title: "BITCH eat yo f00d",
-        text: "If you finished 30% more of your food, over one year you'd save (annual waste)(30%)(14.6)lbs from going to your local waste facility.",
+        text: "If you finished 30% more of your food, over one year you'd save about 170lbs from going to your local waste facility. That's 8.5 watermelons!",
         html: true,
+        imageUrl: "../stylesheets/images/melons.png",
+        imageSize: "300x150",
         closeOnConfirm: false,
-        animation: "slide-from-top", 
+        allowOutsideClick: true,
+        animation: "slide-from-top",
     }
 
     );

@@ -5,13 +5,13 @@ var data = {
         // 'July', 'August', 'September', 'October', 'November', 'December'],
   // y-axis
   series: [
-    [59, 38, 29, 10, 30, 38, 27, 23, 23, 24, 22, 23]
+    [78, 66.12, 75.44, 70.11, 83.44]
   ]
 };
 
 var options = {
     width: '500px',
-    height: '350px'
+    height: '250px'
 };
 
 // line chart plotting resident waste habits
