@@ -37,13 +37,13 @@ body {
 	display: inline-block;
 	background-color: #212626;
 	top: 0;
-	padding-top: 6%
+	padding-top: 5%
 }
 
 ul {
 	list-style-type: none;
-	height: 100%;
 	padding: 0;
+	height: 60%;
 }
 
 a {
@@ -63,8 +63,8 @@ li {
 	text-align: center;
 	margin-left: 8%;
 	margin-right: 8%;
-	height: 4%;
 	padding-top: 6%;
+	height: 6%;
 }
 
 #home-tab {
@@ -79,11 +79,15 @@ li {
 	background-image: url(png/country.png);
 }
 
+#billing-tab {
+	background-image: url(png/bill.png);
+}
+
 #settings-tab {
 	background-image: url(png/settings.png);
 }
 
-#home-tab, #city-tab, #country-tab, #settings-tab {
+#home-tab, #city-tab, #country-tab, #settings-tab, #billing-tab {
 	padding-left:35px;
   	padding-right: 5px;
   	background-repeat: no-repeat;
@@ -91,7 +95,7 @@ li {
   	background-position: 20% 50%;
 }
 
-#country-tab, #settings-tab{
+#country-tab, #settings-tab, #billing-tab{
 	font-size: 1.10vw;
 	padding-left: 50px;
 	background-position: 18% 50%;

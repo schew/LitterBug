@@ -2,13 +2,14 @@
 var data = {
   labels: ['Efficient Homes', 'Your Home', 'Your Neighbors'],
   series: [
-    [20, 50, 40]
+    [54.6, 83.44, 78.32]
   ]
 };
 
 var options = {
-    width: '600px',
+    width: '625px',
     height: '350px',
+
     // horizontalBars: true,
     // axisY: {
     //     labelInterpolationFunc: function(value) {

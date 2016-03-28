@@ -13,6 +13,10 @@ function showCountry() {
 	swap([".charts-country", "#country-tab"], activeTab);
 };
 
+function showBilling() {
+    swap([".billing", "#billing-tab"], activeTab);
+};
+
 function showSettings() {
 	swap([".settings", "#settings-tab"], activeTab);
 };	

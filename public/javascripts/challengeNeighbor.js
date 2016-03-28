@@ -31,8 +31,13 @@ function showModal() {
         }
     );
 
-    $(".sa-button-container").css("margin-left", "-70px")
+//    $(".sa-button-container").css("margin-left", "-70px")
     $(".sa-confirm-button-container").css("margin-bottom", "30px")
+    $(".showSweetAlert").css("background", "rgb(255,255,255")
+    $(".showSweetAlert").css("opacity", "0.9")
+
+
+
 
 
 
