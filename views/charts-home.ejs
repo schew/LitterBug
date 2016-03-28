@@ -1,8 +1,21 @@
 <div class="charts-home">
+
+    <!--<a id="tipsButton">Tips</a>-->
+	<button class="tipButton" onclick="showTips()">Tips</button>
+
 	<!-- Line graph for resident's waste trends -->
-	<div class="home-waste-history"></div>
+	<div class="home-waste-history">
+		<h1>Your Waste History</h1>
+		<h4>The pounds of waste you've tossed</h4>
+		<h4>over the past year</h4>
+	</div>
 	<!-- Bar graph for neighborhood comparison -->
-	<div class="home-neighbor-comparison"></div>
+	<div class="home-neighbor-comparison">
+		<h1>Your Neighborhood Comparison</h1>
+		<h4>This month's waste output compared to your neighbors,</h4>
+		<h4>and the most efficient residents in your city.</h4>
+	</div>
+
 
 	<div class="calculator" ng-controller="MainController as main">
 		<input type="text" ng-model="trashWeight" placeholder="Enter your goal">

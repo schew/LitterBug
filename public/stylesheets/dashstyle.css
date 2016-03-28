@@ -1,6 +1,10 @@
 @import "_chartist-settings.scss";
 @import "../../bower_components/chartist/dist/scss/chartist.scss";
 
+html {
+	height: 100%;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
