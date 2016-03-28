@@ -7,7 +7,7 @@ var data = {
 };
 
 var options = {
-    width: '500px',
+    width: '600px',
     height: '350px',
     // horizontalBars: true,
     // axisY: {

@@ -1,7 +1,6 @@
 <div class="charts-home">
 
-    <!--<a id="tipsButton">Tips</a>-->
-	<button class="tipButton" onclick="showTips()">Tips</button>
+	<button class="tipButton" value="Tips" onclick="showTips()">Tips</button>
 
 	<!-- Line graph for resident's waste trends -->
 	<div class="home-waste-history">
@@ -17,11 +16,11 @@
 	</div>
 
 
-	<div class="calculator" ng-controller="MainController as main">
+	<!-- <div class="calculator" ng-controller="MainController as main">
 		<input type="text" ng-model="trashWeight" placeholder="Enter your goal">
 		<p>Your trash usage this month is 56 lbs.</p>
 		<p>If you reduced it by {{ reduce(trashWeight) }}, you can save ${{ savings(reduce(trashWeight)) }}</p>
 
 		<button>Reset</button>
-	</div>
+	</div> -->
 </div>

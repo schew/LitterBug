@@ -67,7 +67,44 @@ li {
 	padding-top: 6%;
 }
 
+#home-tab {
+	background-image: url(png/home.png);
+}
+
+#city-tab {
+	background-image: url(png/city.png);
+}
+
+#country-tab {
+	background-image: url(png/country.png);
+}
+
+#settings-tab {
+	background-image: url(png/settings.png);
+}
+
+#home-tab, #city-tab, #country-tab, #settings-tab {
+	padding-left:35px;
+  	padding-right: 5px;
+  	background-repeat: no-repeat;
+  	background-size: 27px;
+  	background-position: 20% 50%;
+}
+
+#country-tab, #settings-tab{
+	font-size: 1.10vw;
+	padding-left: 50px;
+	background-position: 18% 50%;
+	background-size: 30px;
+}
+
 #challengeButton {
+	/*icon styling*/
+	background-image: url(png/cup.png);
+	background-size: 26px;
+	background-repeat: no-repeat;
+	background-position: 3% 50%;
+
     background-color:rgb(205,0,0);
     -moz-border-radius:4px;
     -webkit-border-radius:4px;
@@ -76,8 +113,9 @@ li {
     cursor:pointer;
     color:#ffffff;
     /*font-family:Arial;*/
-    font-size:15px;
+    font-size:20px;
     padding:6px 15px;
+    padding-left: 37px;
     text-decoration:none;
     display: inline-block;
     margin-top: 5px;
