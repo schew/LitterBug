@@ -1,7 +1,9 @@
 $(document).ready(function() {
     $('#map').usmap({
         mouseover: function(event, data) {
-            //$('#hover-div').text('You clicked ' + data.name + "!")
+//            $('#hover-div').text('You clicked ' + data.name + "!")
+              $('#hover-state').text(stateDict[data.name]);
+            console.log(data.name)
 //            $.ajax({
 //                type: "POST",
 //                url: 'usdbstate.php',
