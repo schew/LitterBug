@@ -8,6 +8,8 @@ body {
     font-weight: 300;    background: #50a3a2;
     background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
     background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    height: 89%;
+    width: 89%;
 }
 
 a {
@@ -44,6 +46,8 @@ div {
   margin-left: 11%;
   display: inline-block;
   position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .charts-country {
@@ -61,27 +65,38 @@ div {
 }
 
 .home-waste-history {
+  margin-left: 4%;
   padding: 20px;
 }
 
 .home-neighbor-comparison {
+  margin-left: 2%;
   padding: 20px;
 }
 
 .tipButton {
-  padding: 10px 10px;
-  font-size: 15px;
-  color: white;
-  background-color: #212626;
+  position: absolute;
+  bottom: 4%;
+  right: 5%;
+  width: 100px;
+  border-radius: 12px;
   border: none;
   outline: none;
-  position: absolute;
-  top: 7px;
-  right: 35px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left:40px;
+  padding-right: 5px;
+  background-color: #212626;
+  background-image: url(png/tips.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 20% 50%;
+  color: white;
 }
 
 .tipButton:hover {
-    background-color: black;
+  background-color: black;
 }
 
 /* Tab Two */

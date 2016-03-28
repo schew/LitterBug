@@ -1,5 +1,5 @@
 var activeTab=[".charts-home", "#home-tab"];
-$(activeTab[1]).css("background", "rgb(205, 0, 0)");
+$(activeTab[1]).css("background-color", "rgb(205, 0, 0)");
 
 function showHome() {
 	swap([".charts-home", "#home-tab"], activeTab);
@@ -27,11 +27,10 @@ function showSettings() {
 */
 
 function swap(activate, deactivate) {
-
     $(deactivate[0]).css("display", "none");
     $(activate[0]).css("display", "inline-block");
-    $(deactivate[1]).css("background", "none");
-    $(activate[1]).css("background", "rgb(205, 0, 0)");
+    $(activate[1]).css("background-color", "rgba(205, 0, 0, 1)");
+    $(deactivate[1]).css("background-color", "rgba(0, 0, 0, 0)");
 
     activeTab=activate;
 }

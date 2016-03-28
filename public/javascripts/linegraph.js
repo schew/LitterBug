@@ -10,8 +10,8 @@ var data = {
 };
 
 var options = {
-    width: '500px',
-    height: '250px'
+    width: '625px',
+    height: '350px'
 };
 
 // line chart plotting resident waste habits
