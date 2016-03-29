@@ -3,7 +3,7 @@ $(document).ready(function() {
         mouseover: function(event, data) {
 //            $('#hover-div').text('You clicked ' + data.name + "!")
               $('#hover-state').text(stateDict[data.name][0]);
-            $('#hover-pop').text(stateDict[data.name][1] + " tons of waste produced in 2016");
+            $('#hover-pop').text(stateDict[data.name][1] + " tons of waste produced in 2015");
 
             console.log(data.name)
 //            $.ajax({
