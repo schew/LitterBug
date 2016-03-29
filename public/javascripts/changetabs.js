@@ -79,7 +79,27 @@ $( "#custom-dropdown" ).change(function() {
 
     }
 
-    else if (a.selectedIndex == 4) {
+    else if (a.selectedIndex == 3) {
+        var data = {
+            labels: ['Efficient Homes', 'Your Home', 'Your Neighbors'],
+            series: [
+                [45.6, 93.44, 68.32]
+            ]
+        };
+
+        var options = {
+            width: '450px',
+            height: '350px',
+
+            // horizontalBars: true,
+            // axisY: {
+            //     labelInterpolationFunc: function(value) {
+            //         return value + 'kWh'
+            //     }
+            // }
+        };
+
+    } else {
         var data = {
             labels: ['Efficient Homes', 'Your Home', 'Your Neighbors'],
             series: [
