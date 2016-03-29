@@ -10,7 +10,7 @@ var data = {
 };
 
 var options = {
-    width: '625px',
+    width: '450px',
     height: '350px'
 };
 
