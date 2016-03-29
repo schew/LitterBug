@@ -61,7 +61,7 @@ $( "#custom-dropdown" ).change(function() {
         var data = {
             labels: ['Efficient Homes', 'Your Home', 'Your Neighbors'],
             series: [
-                [45.6, 93.44, 68.32]
+                [50.3, 53.2, 72]
             ]
         };
 
@@ -83,7 +83,7 @@ $( "#custom-dropdown" ).change(function() {
         var data = {
             labels: ['Efficient Homes', 'Your Home', 'Your Neighbors'],
             series: [
-                [45.6, 93.44, 68.32]
+                [70, 93.44, 68.32]
             ]
         };
 
@@ -103,7 +103,7 @@ $( "#custom-dropdown" ).change(function() {
         var data = {
             labels: ['Efficient Homes', 'Your Home', 'Your Neighbors'],
             series: [
-                [45.6, 93.44, 68.32]
+                [45.6, 70, 60]
             ]
         };
 
