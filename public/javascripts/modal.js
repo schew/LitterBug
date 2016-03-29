@@ -36,7 +36,7 @@ function showChallengeNeighbor() {
 
 function showTips() {
     swal({
-        title: "BITCH eat yo f00d",
+        title: "Finish your food",
         text: "If you finished 30% more of your food, over one year you'd save about 170lbs from going to your local waste facility. That's 8.5 watermelons!",
         html: true,
         imageUrl: "../stylesheets/images/melons.png",
