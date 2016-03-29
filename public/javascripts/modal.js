@@ -17,7 +17,7 @@ function showChallengeNeighbor() {
         type: "input",
         showCancelButton: true,
         closeOnConfirm: false,
-        allowOutsideClick: true,
+        allowOutsideClick: false,
         animation: "slide-from-top",
         inputPlaceholder: "Search by username or address" },
         function(inputValue){
@@ -25,7 +25,8 @@ function showChallengeNeighbor() {
             if (inputValue === "") {
                 swal.showInputError("You need to write something!");
                 return false   }
-            swal("Nice!", "You wrote: " + inputValue, "success");
+            swal("Nice!", "You challenged: " + inputValue + ".\n " +
+                "You will receive a notification when the challenge is accepted.", "success");
         }
     );
 
