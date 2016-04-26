@@ -64,7 +64,7 @@ var options = {
         display: true,
         position: "top",
         text: "Your Neighborhood Comparison",
-        fontSize: 20
+        fontSize: 30
     }, scales: {
         yAxes: [{
             ticks: {
@@ -167,12 +167,6 @@ $( "#monthDropdownSelect" )
             }
         }
 
-        var options = {
-            legend : {
-                display: false
-            }
-        }
-
         var myBarChart = new Chart(that.ctx, {
             type: 'bar',
             data: data,
@@ -204,7 +198,9 @@ $('.challenger').click( function() {
     var list = document.getElementById("challengeNeighbor");
     list.removeChild(list.childNodes[1])
     $('#hasChallenges').css('margin-left', '0')
-    $("#hasChallenges h3").html("Your Waste versus " + username);
+    $("#hasChallenges h3").html("Ongoing Challenges");
+//    $("#hasChallenges p").html("For the past month...");
+
 
     var data = {
         labels: [
@@ -213,21 +209,29 @@ $('.challenger').click( function() {
         ],
         datasets: [
             {
-                data: [300, 50],
+                data: [24, 16],
                 backgroundColor: [
                     "#FFCE56",
-                    "#36A2EB"
+                    "#36A2EB",
                 ],
                 hoverBackgroundColor: [
                     "#FFCE56",
-                    "#36A2EB"
-                ],
-                pointLabelFontColor: "white",
+                    "#36A2EB",
+                ]
             }]
     };
 
     var options = {
-        defaultFontColor: "red"
+        legend : {
+            fontColor: "white"
+        },
+        title : {
+            display: true,
+            position: "top",
+            text: "YOU versus " + username.toUpperCase() ,
+            fontSize: 14,
+            fontColor: "white"
+        }
     }
 
     var ctx = document.getElementById("donut");
@@ -240,5 +244,7 @@ $('.challenger').click( function() {
     });
 
     $("#donut").width(250)
+
+
     return false;
 } );
