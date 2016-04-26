@@ -3,6 +3,9 @@
 
 <head>
     <title><%= title %></title>
+    <script>
+        var user1Data = <%- JSON.stringify(data) %> ;
+    </script>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel='stylesheet' href='/stylesheets/usdb.css' />
     <link rel="stylesheet" type="text/css" href="/bower_components/epoch/dist/css/epoch.css">
@@ -20,6 +23,7 @@
     <script src="javascripts/raphael.js"></script>
     <script src="javascripts/jquery.usmap.js"></script>
     <script src="javascripts/usdb.js"></script>
+    <script src="/bower_components/Chart.js/dist/Chart.min.js"></script>
 </head>
 
 <body ng-app="FootprintApp">
