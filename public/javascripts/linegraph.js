@@ -66,7 +66,7 @@ var lineChart = new Chart(ctx, {
             display: true,
             position: "top",
             text: "Waste Output by Month",
-            fontSize: 20
+            fontSize: 30
         },
         legend: {
             display: false

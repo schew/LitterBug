@@ -64,7 +64,7 @@ var options = {
         display: true,
         position: "top",
         text: "Your Neighborhood Comparison",
-        fontSize: 20
+        fontSize: 30
     }, scales: {
         yAxes: [{
             ticks: {
