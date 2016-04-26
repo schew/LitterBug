@@ -64,7 +64,7 @@ $('#tipDiv').css('padding-top', '12px')
 $('#tipDiv').css('padding', '6px')
 $('#tipDiv').css('width', '300px')
 $('#tipDiv').css('height', '400')
-$('#tipDiv').css('margin-top', '100px')
+$('#tipDiv').css('margin-top', '77px')
 $('#tipDiv').css('text-align', 'center')
 $('#tipDiv').css('float', 'left')
 $('#tipTitle').css('font-size', '35px')
@@ -72,8 +72,9 @@ $('#tipTitle').css('margin-top', '20px')
 $('#tipDiv').css('border-radius', '6px')
 
 
-$('#tipText').css('font-size', '16px')
-$('#tipText').css('padding', '30px')
+$('#tipText').css('font-size', '18px')
+$('#tipText').css('padding', '10px')
+
 
 
 $('#tipType').css('font-size', '20px')

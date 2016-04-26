@@ -110,7 +110,7 @@ li {
 	background-repeat: no-repeat;
 	background-position: 3% 50%;
 
-    background-color:rgb(205,0,0);
+    background-color: rgba(194,0,0, .6);
     -moz-border-radius:4px;
     -webkit-border-radius:4px;
     border-radius:12px;
