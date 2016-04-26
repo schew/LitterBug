@@ -40,14 +40,18 @@ for (var x = 0; x < user1Data.weightData.length; x++) {
     data.push(user1Data.weightData[x])
 }
 
-var ctx = document.getElementById("myChart");
-var myChart = new Chart(ctx, {
+var ctx = document.getElementById("monthlyWaste");
+var lineChart = new Chart(ctx, {
     type: 'line',
     data: {
         labels: labels,
         datasets: [{
             label: 'Waste By Month',
-            data: data
+            data: data,
+            backgroundColor: "rgba(242,189,32,0.6)",
+            pointRadius: 20,
+            pointBorderWidth: 7,
+            pointBorderColor: "rgba(194,0,0,1)"
         }]
     },
     options: {
@@ -57,40 +61,31 @@ var myChart = new Chart(ctx, {
                     beginAtZero:true
                 }
             }]
+        },
+        title: {
+            display: true,
+            position: "top",
+            text: "Waste Output by Month",
+            fontSize: 20
+        },
+        legend: {
+            display: false
         }
     }
 })
 
-//$.get("/home", function(req, res, next) {
-////    console.log(req)
-////    console.log(res)
-////    console.log(next)
-//      var title = req.title
-//      var title2 = res.title
-//
-//    console.log(title)
-//    console.log(title2)
-//})
+chart = $('#wasteContainer')
+chart.css('margin', '30px')
 
-// TODO: MONGOOSE STUFF -- FOR GETTING STUFF FROM DB -- FOCUS ON LATER
-//var tempData = mongoose.model('TempTrash', {
-//   resident0: [59, 38, 29, 10, 30, 38, 27, 23, 23, 24, 22, 23],
-//   resident1: [38, 29, 18, 29, 29, 18, 29, 50, 28, 38, 28, 26],
-//   district0: [50, 51, 25, 30, 35, 27, 26, 25, 25, 27, 29, 25],
-//   baltimore: [59, 48, 30, 38, 25, 26, 28, 27, 26, 25, 30, 24],
-//   baltimoreCounty: [60, 49, 39, 29, 29 , 26, 24, 26, 27, 27, 29, 26]
-//});
+$('body').css('background', 'rgba(242,189,32,0.6)')
 
-//get info from mongoose
-//app.get('/api/tempdata', function(req, res) {
-//
-//     // use mongoose to get all todos in the database
-//     TempTrash.find(function(err, trash) {
-//
-//         // if there is an error retrieving, send the error. nothing after res.send(err) will execute
-//         if (err)
-//             res.send(err)
-//
-//         res.json(trash); // return all todos in JSON format
-//     });
-//});
+$('#wasteContainer').css('float', 'left')
+$('#tipDiv').css('background', 'darkgray')
+$('#tipDiv').css('width', '300px')
+$('#tipDiv').css('height', '400')
+$('#tipDiv').css('margin-top', '100px')
+$('#tipDiv').css('float', 'left')
+
+
+
+
