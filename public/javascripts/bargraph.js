@@ -167,6 +167,12 @@ $( "#monthDropdownSelect" )
             }
         }
 
+        var options = {
+            legend : {
+                display: false
+            }
+        }
+
         var myBarChart = new Chart(that.ctx, {
             type: 'bar',
             data: data,
@@ -194,4 +200,45 @@ $( "#monthDropdownSelect" )
 $('.challenger').click( function() {
     var username = $('.css-input').val();
     console.log(username)
-    return false; } );
+
+    var list = document.getElementById("challengeNeighbor");
+    list.removeChild(list.childNodes[1])
+    $('#hasChallenges').css('margin-left', '0')
+    $("#hasChallenges h3").html("Your Waste versus " + username);
+
+    var data = {
+        labels: [
+            "estroud1",
+            username,
+        ],
+        datasets: [
+            {
+                data: [300, 50],
+                backgroundColor: [
+                    "#FFCE56",
+                    "#36A2EB"
+                ],
+                hoverBackgroundColor: [
+                    "#FFCE56",
+                    "#36A2EB"
+                ],
+                pointLabelFontColor: "white",
+            }]
+    };
+
+    var options = {
+        defaultFontColor: "red"
+    }
+
+    var ctx = document.getElementById("donut");
+
+
+    var myDoughnutChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: data,
+        options: options
+    });
+
+    $("#donut").width(250)
+    return false;
+} );

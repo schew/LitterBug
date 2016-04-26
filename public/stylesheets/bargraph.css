@@ -1,9 +1,51 @@
 #challengeNeighbor {
-    background: gray;
+    background: rgba(194,0,0, .6);
     border-radius: 3px;
+    padding: 5px;
+    text-align: center;
 }
 
 .charts-city {
     margin-top: 100px;
+}
+
+.challenger {
+    position:relative;
+    background-color:rgb(242, 189, 32);
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:16px;
+    border:1px solid white;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px rgb(242, 189, 100);
+    top: 30px;
+}
+.challenger:hover {
+    background-color:rgba(242, 189, 32, .5);
+}
+
+.challenger:active {
+    position:relative;
+    top:31px;
+}
+
+.css-input {
+    font-size:16px;
+    border-width:2px;
+    border-color:#cccccc;
+    border-style:solid;
+    padding:3px;
+    border-radius:4px;  }
+.css-input:focus { outline:none; }
+
+#hasChallenges {
+    /*top: -100px;*/
+    /*margin-bottom: -100px;*/
+    margin-left: 1000px;
 }
 
