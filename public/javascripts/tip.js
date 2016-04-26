@@ -44,14 +44,15 @@ if(user1Data.weightData.length < 1) {
 document.getElementById("tipText").innerHTML = tip
 
 
-//$('#tipDiv').css('background', 'darkgray')
+$('#tipDiv').css('background', 'red') //#212626
 $('#tipDiv').css('width', '300px')
 $('#tipDiv').css('height', '400')
 $('#tipDiv').css('margin-top', '100px')
 $('#tipDiv').css('float', 'left')
 $('#tipDiv').css('font-size', '2em')
 
-$('#tipText').css('font-size', '0.5em')
+$('#tipText').css('font-size', '0.7em')
+$('#tipText').css('padding', '30px')
 
 
 
