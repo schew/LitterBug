@@ -5,6 +5,7 @@ mongoose.createConnection('mongodb://localhost:27017');
 
 
 var sampleData = [2, 4, 5, 7, 9, 10, 14, 17, 20, 25, 26, 28];
+sampleData = sampleData.reverse()
 
 /* GET home page. */
 router.get('/home', function(req, res, next) {
