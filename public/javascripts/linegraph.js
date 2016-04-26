@@ -80,11 +80,11 @@ chart.css('margin', '30px')
 $('body').css('background', 'rgba(242,189,32,0.6)')
 
 $('#wasteContainer').css('float', 'left')
-$('#tipDiv').css('background', 'darkgray')
-$('#tipDiv').css('width', '300px')
-$('#tipDiv').css('height', '400')
-$('#tipDiv').css('margin-top', '100px')
-$('#tipDiv').css('float', 'left')
+//$('#tipDiv').css('background', 'darkgray')
+//$('#tipDiv').css('width', '300px')
+//$('#tipDiv').css('height', '400')
+//$('#tipDiv').css('margin-top', '100px')
+//$('#tipDiv').css('float', 'left')
 
 
 
