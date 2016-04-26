@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 mongoose.createConnection('mongodb://localhost:27017');
 
 
-var sampleData = [2, 4, 5, 7, 9, 10, 14, 17, 20];
+var sampleData = [2, 4, 5, 7, 9, 10, 14, 17, 20, 25, 26, 28];
 
 /* GET home page. */
 router.get('/home', function(req, res, next) {
@@ -24,22 +24,6 @@ router.get('/home', function(req, res, next) {
         MonthlyData = mongoose.model('MonthlyData', MonthlyDataSchema);
     }
 
-//    var user1Data = new MonthlyData({
-//        userid: 'user1',
-//        weightData: [21, 24]
-//    });
-
-//    MonthlyData.find({}, function(err, users) {
-//
-//
-//        users.forEach(function(user) {
-//            console.log(user)
-//        });
-//        res.render('home', { title: 'Footprint', data: user1Data});
-//
-//    });
-
-
     MonthlyData.findOne({ userid: 'user1' }, function(err, data) {
         if (err) return console.error(err);
 //        user1Data = data
@@ -56,6 +40,9 @@ router.get('/home', function(req, res, next) {
             });
         } else {
             data.weightData.push(sampleData[data.weightData.length])
+            if (data.weightData.length >= 13) {
+                data.weightData = []
+            }
             data.save(function(err) {
                 if (err) throw err;
                 console.log('Data saved successfully!');
