@@ -73,6 +73,7 @@ li {
 
 #city-tab {
 	background-image: url(png/city.png);
+    /*font-size: 15px;*/
 }
 
 #country-tab {
