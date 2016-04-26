@@ -17,16 +17,37 @@ var options = {
 // line chart plotting resident waste habits
 //new Chartist.Line('.home-waste-history', data, options);
 
-console.log(user1Data)
+monthDict = {
+    0: "January",
+    1: "February",
+    2: "March",
+    3: "April",
+    4: "May",
+    5: "June",
+    6: "July",
+    7: "August",
+    8: "September",
+    9: "October",
+    10: "November",
+    11: "December"
+}
+
+var labels = []
+var data = []
+
+for (var x = 0; x < user1Data.weightData.length; x++) {
+    labels.push(monthDict[x])
+    data.push(user1Data.weightData[x])
+}
 
 var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: labels,
         datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3]
+            label: 'Waste By Month',
+            data: data
         }]
     },
     options: {

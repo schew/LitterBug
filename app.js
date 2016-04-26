@@ -87,5 +87,19 @@ app.use(function(err, req, res, next) {
 //         res.json(trash); // return all todos in JSON format
 //     });
 // });
+//
+//var Schema = mongoose.Schema;
+//
+//var MonthlyData = new Schema({
+//    userid: String,
+//    weightData: []
+//});
+//
+//// the schema is useless so far
+//// we need to create a model using it
+//var MonthlyData = mongoose.model('MonthlyData', MonthlyData);
+
+// make this available to our users in our Node applications
+//module.exports = MonthlyData;
 
 module.exports = app;
