@@ -76,7 +76,7 @@ var options = {
 }
 
 var ctx = document.getElementById("monthlyComparison");
-console.log(ctx)
+
 var myBarChart = new Chart(ctx, {
     type: 'bar',
     data: data,
@@ -190,3 +190,8 @@ $( "#monthDropdownSelect" )
         $('#challengeNeighbor').css('margin-top', '35px')
         $('#challengeNeighbor').css('float', 'left')
     })
+
+$('.challenger').click( function() {
+    var username = $('.css-input').val();
+    console.log(username)
+    return false; } );
